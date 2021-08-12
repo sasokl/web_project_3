@@ -1,0 +1,9 @@
+.language-links {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  list-style: none;
+  font-size: 24px;
+  margin: 0;
+  padding: 0;
+}

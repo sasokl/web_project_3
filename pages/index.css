@@ -1,2 +1,27 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/fonts/_inter/fonts__inter.css);
+@import url(../blocks/root/root.css);
+
+@import url(../blocks/page/page.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/logo/logo.css);
+@import url(../blocks/lang-links/lang-links.css);
+@import url(../blocks/lang-links/__link/lang-links__link.css);
+@import url(../blocks/lang-links/__link/_underlined/lang-links__link_underlined.css);
+
+@import url(../blocks/content/content.css);
+
+@import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+@import url(../blocks/intro/intro.css);
+@import url(../blocks/intro/__title/intro__title.css);
+@import url(../blocks/intro/__subtitle/intro__subtitle.css);
+@import url(../blocks/intro/__paragraph/intro__paragraph.css);
+@import url(../blocks/intro/__list/intro__list.css);
+@import url(../blocks/intro/__list-text/intro__list-text.css);
+@import url(../blocks/intro/__list-text/_bold/intro__list-text_bold.css);
