@@ -1,9 +1,14 @@
+@import url(./__logo/header__logo.css);
+@import url(./__list/header__list.css);
+@import url(./_lang-link/header__lang-link.css);
+@import url(./_lang-link/_underlined/header__lang-link_underlined.css);
+
 .header {
   position: relative;
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  width: 76%;
-  min-width: 984px;
+  max-width: 984px;
   height: 44px;
   padding: 34px 0 0;
 }

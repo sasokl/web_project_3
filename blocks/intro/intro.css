@@ -1,4 +1,12 @@
+@import url(./__title/intro__title.css);
+@import url(./__subtitle/intro__subtitle.css);
+@import url(./__paragraph/intro__paragraph.css);
+@import url(./__list/intro__list.css);
+@import url(./__list-text/intro__list-text.css);
+@import url(./__list-text/_bold/intro__list-text_bold.css);
+
 .intro {
   display: flex;
   flex-direction: column;
+  align-self: start;
 }
