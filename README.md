@@ -15,10 +15,6 @@ This is a project about traveling across the US. We've made it so all the elemen
 * Flexbox, Grid
 * Responsive layout with media queries
 
-**Figma**
-
-[Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
-
 **Plans for finalizing the project**
 * Add more screen sizes to increase the flexibility of the elements
 
@@ -26,4 +22,6 @@ This is a project about traveling across the US. We've made it so all the elemen
 
 [Link to project on GitPages](https://sasokl.github.io/web_project_3)
 
+**Figma**
 
+[Link to the project on Figma](https://www.figma.com/file/AtbNbstbxWPcMqvF061V0R/Sprint-3%3A-From-Portland-to-Portland-%7C-desktop-%2B-mobile?node-id=0%3A1)
