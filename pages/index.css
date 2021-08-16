@@ -1,6 +1,7 @@
 @import url(../vendor/normalize.css);
 @import url(../blocks/fonts/_inter/fonts__inter.css);
 @import url(../blocks/root/root.css);
+@import url(../variables/variables.css);
 
 @import url(../blocks/page/page.css);
 
@@ -18,3 +19,5 @@
 @import url(../blocks/place/place.css);
 
 @import url(../blocks/cover/cover.css);
+
+@import url(../blocks/footer/footer.css);

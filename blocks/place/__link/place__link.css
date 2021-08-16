@@ -6,4 +6,15 @@
   color: #FFFFFF;
   margin: 4px 0 0;
   padding: 0;
+  transition: var(--link-transition);
+}
+
+.place__link:hover {
+  opacity: var(--hovered-link-opacity);
+}
+
+@media screen and (max-width: 320px) {
+  .place__link {
+    margin-left: 16px;
+  }
 }

@@ -1,10 +1,17 @@
 .intro__subtitle {
-  width: 690px;
-  height: 68px;
+  max-width: 690px;
+  width: 100%;
+  min-height: 68px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
-  line-height: 1.42;
+  line-height: 34px;
   margin: 40px 0 0;
   color: #FFFFFF;
+}
+
+@media screen and (max-width: 320px) {
+  .intro__title {
+    line-height: 30px;
+  }
 }

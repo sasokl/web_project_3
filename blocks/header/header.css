@@ -5,10 +5,32 @@
 
 .header {
   position: relative;
+  width: calc(100% * (984 / 1280));
   display: flex;
   align-items: center;
   justify-content: space-between;
   max-width: 984px;
   height: 44px;
   padding: 34px 0 0;
+}
+
+@media screen and (max-width: 1024px) {
+  .header {
+    width: calc(100% * (928 / 1024));
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .header {
+    width: calc(100% * (720 / 768));
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .header {
+    width: calc(100% * (288 / 320));
+    max-width: 288px;
+  }
 }

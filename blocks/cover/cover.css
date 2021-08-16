@@ -7,7 +7,26 @@
   background-image: url(../../images/cover-route-66.jpg);
   background-size: cover;
   background-position: top center;
-  width: 125%;
-  min-height: 740px;
+  width: calc(100% * (1184 / 1280));
   max-width: 1184px;
+  min-height: 740px;
+}
+
+@media screen and (max-width: 1024px) {
+  .cover {
+    width: 100%;
+    min-height: 640px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .cover {
+    min-height: 480px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .cover {
+    min-height: 200px;
+  }
 }

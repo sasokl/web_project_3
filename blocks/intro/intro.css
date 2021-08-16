@@ -6,7 +6,30 @@
 @import url(./__list-text/_bold/intro__list-text_bold.css);
 
 .intro {
+  width: calc(100% * (984 / 1280));
+  max-width: 984px;
   display: flex;
   flex-direction: column;
-  align-self: start;
+}
+
+
+@media screen and (max-width: 1024px) {
+  .intro {
+    width: calc(100% * (928 / 1024));
+    max-width: 928px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .intro {
+    width: calc(100% * (720 / 768));
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .intro {
+    width: calc(100% * (288 / 320));
+    max-width: 288px;
+  }
 }
