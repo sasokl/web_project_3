@@ -1,0 +1,15 @@
+.content__cover {
+  margin: 92px 0 0;
+}
+
+@media screen and (max-width: 768px) {
+  .content__cover {
+    margin: 89px 0 0;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .content__cover {
+    margin: 64px 0 0;
+  }
+}

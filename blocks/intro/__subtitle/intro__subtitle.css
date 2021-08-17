@@ -1,17 +1,39 @@
 .intro__subtitle {
   max-width: 690px;
   width: 100%;
-  min-height: 68px;
   font-style: normal;
   font-weight: normal;
   font-size: 24px;
   line-height: 34px;
   margin: 40px 0 0;
+  /* You wrote "Incorrect margin between title and subtitle in intro", but i dont understand where's the wrong margins?
+  In figma there's only 40px on all the screens */
   color: #FFFFFF;
 }
 
+@media screen and (max-width: 768px) {
+  .intro__subtitle {
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .lead__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+  }
+}
+
+@media screen and (max-width: 452px) {
+  .lead__subtitle {
+    font-size: 19px;
+    line-height: 25px;
+  }
+}
+
 @media screen and (max-width: 320px) {
-  .intro__title {
+  .intro__subtitle {
+    max-width: 288px;
     line-height: 30px;
   }
 }

@@ -1,15 +1,16 @@
-@import url(./__title/cover__title.css);
-@import url(./__subtitle/cover__subtitle.css);
-@import url(./__overlay/cover__overlay.css);
-
 .cover {
   position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   background-image: url(../../images/cover-route-66.jpg);
   background-size: cover;
   background-position: top center;
   width: calc(100% * (1184 / 1280));
   max-width: 1184px;
   min-height: 740px;
+  z-index: 1;
 }
 
 @media screen and (max-width: 1024px) {

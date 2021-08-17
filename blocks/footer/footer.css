@@ -1,7 +1,3 @@
-@import url(./__copyright/footer__copyright.css);
-@import url(./__link/footer__link.css);
-@import url(./__list/footer__list.css);
-
 .footer {
   width: calc(100% * (1184 / 1280));
   max-width: 1184px;
@@ -25,16 +21,18 @@
   .footer {
     width: calc(100% * (720 / 768));
     max-width: 720px;
+    padding-top: 88px;
   }
 }
 
 @media screen and (max-width: 320px) {
   .footer {
+    width: calc(100% * (288 / 320));
     flex-direction: column;
     align-items: start;
     gap: 48px;
     align-self: start;
-    padding-left: 16px;
-    width: 165px;
+    padding-top: 64px;
+    padding-left: calc(100% * 0.05); /* ((100% * (320-288)/320) / 2) */
   }
 }

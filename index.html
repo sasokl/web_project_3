@@ -12,7 +12,7 @@
     <div class="logo header__logo"></div>
     <ul class="header__list">
       <li>
-        <a class="header__lang-link header__lang-link_underlined" href="#">En</a>
+        <a class="header__lang-link header__lang-link_active" href="#">En</a>
       </li>
       <li>
         <a class="header__lang-link" href="#">Es</a>
@@ -23,8 +23,10 @@
     <section class="lead">
       <h1 class="lead__title">From Portland to Portland</h1>
       <p class="lead__subtitle">An epic bicycle journey from Portland, ME. to Portland, OR</p>
-      <img class="lead__image" src="./images/lead-mountains.jpg" alt="mountains">
-      <p class="lead__caption">Your journey starts here</p>
+      <figure class="lead__figure">
+        <img class="lead__image" src="./images/lead-mountains.jpg" alt="mountains">
+        <figcaption class="lead__caption">Your journey starts here</figcaption>
+      </figure>
     </section>
     <section class="intro">
       <h2 class="intro__title">Know the country you live in a little better</h2>
@@ -39,17 +41,17 @@
         book.
       </p>
       <ul class="intro__list">
-        <li class="intro__list-text">
-          <span class="intro__list-text intro__list-text_bold">Distance (miles)</span> 3,644
+        <li>
+          Distance (miles) <span class="intro__span">3,644</span>
         </li>
-        <li class="intro__list-text">
-          <span class="intro__list-text intro__list-text_bold">Travel time (days)</span> 22
+        <li>
+          Travel time (days) <span class="intro__span">22</span>
         </li>
-        <li class="intro__list-text">
-          <span class="intro__list-text intro__list-text_bold">Highest point (feet)</span> 9,613
+        <li>
+          Highest point (feet) <span class="intro__span">9,613</span>
         </li>
-        <li class="intro__list-text">
-          <span class="intro__list-text intro__list-text_bold">Lowest point (feet)</span> -3
+        <li>
+          Lowest point (feet) <span class="intro__span">-3</span>
         </li>
       </ul>
     </section>
@@ -209,30 +211,29 @@
       </article>
     </section>
 
-    <section class="cover">
-      <a class="cover__overlay" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
+    <section class="cover content__cover">
+      <a class="cover__link" href="https://www.nps.gov/nr/travel/route66/maps66.html" target="_blank">
         <h2 class="cover__title">Historic Route 66</h2>
         <p class="cover__subtitle">The Main Street of America from Santa Monica, Cal. to Chicago, Ill.</p>
       </a>
     </section>
-
-    <footer class="footer">
-      <nav>
-        <ul class="footer__list">
-          <li>
-            <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
-          </li>
-          <li>
-            <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
-          </li>
-          <li>
-            <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calendar</a>
-          </li>
-        </ul>
-      </nav>
-      <p class="footer__copyright">&copy; 2021. Alexander Blaus</p>
-    </footer>
   </main>
+  <footer class="footer">
+    <nav>
+      <ul class="footer__list">
+        <li>
+          <a class="footer__link" href="https://yandex.com/maps" target="_blank">Maps</a>
+        </li>
+        <li>
+          <a class="footer__link" href="https://yandex.com/weather/moscow" target="_blank">Weather</a>
+        </li>
+        <li>
+          <a class="footer__link" href="https://calendar.yandex.ru" target="_blank">Calendar</a>
+        </li>
+      </ul>
+    </nav>
+    <p class="footer__copyright">&copy; 2021. Alexander Blaus</p>
+  </footer>
 </div>
 </body>
 </html>
