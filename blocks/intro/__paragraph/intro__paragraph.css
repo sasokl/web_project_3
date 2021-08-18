@@ -9,3 +9,9 @@
   margin: 32px 0 0;
   padding: 0;
 }
+
+@media screen and (max-width: 768px) {
+  .intro__paragraph {
+    max-width: 100%;
+  }
+}
