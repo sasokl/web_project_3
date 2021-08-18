@@ -37,7 +37,7 @@
 
 @media screen and (max-width: 320px) {
   .footer {
-    width: calc(100% * (288 / 320)git);
+    width: calc(100% * (288 / 320));
     padding-left: calc(100% * 0.05); /* ((100% * (320-288)/320) / 2) */
     align-self: start;
   }
